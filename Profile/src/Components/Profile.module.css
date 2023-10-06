@@ -1,0 +1,73 @@
+.ProfileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 90vh;
+    width: 55vh;
+    margin-top: 20px;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer hr {
+    width: 55vh;
+    border-color: deepskyblue;
+}
+
+.DescriçaoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+.DescriçaoContainer hr {
+    width: 55vh;
+    border-color: deepskyblue;
+}
+
+.BtnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.BtnContainer button {
+    padding: 8px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: linear-gradient(#3498db, #87cefa);
+    cursor:pointer
+}
+.BtnContainer button:hover {
+    background: linear-gradient( #2980b9, #5da8ff);
+  }
+
+  @media(max-width:1024px){
+    .ProfileContainer{
+        height: 95vh;
+    }
+  }
+
